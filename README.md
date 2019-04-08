@@ -43,6 +43,12 @@ La etiqueta "aside" define un contenido aparte del contenido en el que se encuen
 
 El contenido aparte debe estar relacionado con el contenido que lo rodea.
 
+### Usando el atributo id
+El id atributo especifica una identificación única para un elemento HTML (el valor debe ser único dentro del documento HTML).
+
+El valor de id puede ser utilizado por CSS y JavaScript para realizar ciertas tareas para un elemento único con el valor de id especificado.
+
+
 ### Definición y uso de la etiqueta
 El elemento HTML "iframe" (de inline frame) representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual como un enlace de video de youtube.
 
