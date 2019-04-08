@@ -3,34 +3,35 @@
 Estructurar un sitio web estático usando HTML5. El sitio web será informativo sobre un tema que será autoría del estudiante. El sitio web deberá contar con una página principal denominada index.html y debe contener al menos cinco páginas *.html más. Todas las páginas contaran con un menú de navegación que permitirá al usuario moverse entre todas las páginas HTML. 
 
 ## Definición y uso de las etiquetas usadas
-El elemento <!--<header>--> representa un contenedor para contenido introductorio o un conjunto de enlaces de navegación.
+El elemento "header" representa un contenedor para contenido introductorio o un conjunto de enlaces de navegación.
 
-Un elemento <!--<header>--> típicamente contiene:
+Un elemento "header" típicamente contiene:
 
--uno o más elementos de encabezado (<h1> - <h6>)
+-uno o más elementos de encabezado h1 y h6
+
 -logo o icono
+
 -información de autoría
 
 ### Definición y uso de la etiqueta 
     
-La etiqueta <!--<nav>--> define un conjunto de enlaces de navegación.
+La etiqueta "nav" define un conjunto de enlaces de navegación.
 
 Observe que NO todos los enlaces de un documento deben estar dentro de un elemento. El elemento está destinado solo para el bloque principal de enlaces de navegación.
 
 ### Definición y uso de la etiqueta 
     
-El elemento <!--<footer>--> representa al pie de una sección o documento, donde los autores habitualmente colocan firmas, información acerca del autor, información de licencias, documentos relacionados, etc.
-Definición y uso de la etiqueta 
+El elemento "footer" representa al pie de una sección o documento, donde los autores habitualmente colocan firmas, información acerca del autor, información de licencias, documentos relacionados, etc.
 
 ### Definición y uso de la etiqueta 
-La etiqueta <!--<section>--> define las secciones de un documento, como capítulos, encabezados, pies de página o cualquier otra sección del documento.
+La etiqueta "section" define las secciones de un documento, como capítulos, encabezados, pies de página o cualquier otra sección del documento.
 
 ### Definición y uso de la etiqueta 
-La etiqueta <!--<article>--> especifica contenido independiente y autocontenido.
+La etiqueta "article" especifica contenido independiente y autocontenido.
 
 Un artículo debería tener sentido por sí mismo y debería ser posible distribuirlo independientemente del resto del sitio.
 
-Fuentes potenciales para el elemento <!--<article>-->:
+Fuentes potenciales para el elemento "article":
 
 -Mensaje del foro
 -Entrada en el blog
@@ -38,66 +39,19 @@ Fuentes potenciales para el elemento <!--<article>-->:
 -Comentario
 
 ### Definición y uso de la etiqueta
-La etiqueta <!--<aside>--> define un contenido aparte del contenido en el que se encuentra.
+La etiqueta "aside" define un contenido aparte del contenido en el que se encuentra.
 
 El contenido aparte debe estar relacionado con el contenido que lo rodea.
 
 ### Definición y uso de la etiqueta
-El elemento HTML <!--<iframe>--> (de inline frame) representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual como un enlace de video de youtube.
+El elemento HTML "iframe" (de inline frame) representa un contexto de navegación anidado, el cual permite incrustrar otra página HTML en la página actual como un enlace de video de youtube.
 
 ### Definición y uso de la etiqueta
 
-Una tabla HTML se define con la <!--<table>--> etiqueta.
+Una tabla HTML se define con la "table" etiqueta.
 
-Cada fila de la tabla se define con la <!--<tr>--> etiqueta. Un encabezado de tabla se define con la <!--<th>--> etiqueta. Por defecto, los encabezados de las tablas están en negrita y centrados. Una tabla de datos / celda se define con la <!--<td>--> etiqueta.
-### Instalación de herramientas necesarias para cargar el proyecto 
-
-Primero descargamos la herramienta Git Bash del siguiente enlace.
-
-La instalación es sencilla solo le damos next y finalizamos una vez realizado esto ya podemos continuar con la carga del proyecto. 
-
-https://git-scm.com/download/win
-
--Antes de cargar el proyecto debemos confirmar si el desarrollo de las páginas Web están correctas para esto usamos la herramienta W3C validator lo encuentras en este enlace.
-
-https://validator.w3.org/?fbclid=IwAR2NlzqAR_kIKCA-Bx9byoYRgfGnwXfV6Yr89_RdfyVM_AIAzTnnggV2aIo
-
--Para cargar la práctica abrimos la consola de Windows en el buscador ponemos cmd y le damos Enter ahora ingresamos los siguientes comandos para registrarnos como usuarios.
-
--Primero nos situamos en la carpeta la cual contiene la práctica
-
-Cd \ruta completa de la carpeta  
-
--Luego creamos el usuario el mismo que ya creamos en el GitHub
-
-git config --global user.name "usuario del GitHub creado en internet"
- 
--Luego el correo que ingresamos al crear la cuenta de GitHub.
-
-git config --global  user.email registrado@gnail.com
-
--A continuación  el siguiente comando 
-
-git init
-
--Y luego el siguiente
-
-
-git add .                     
-
--Confirmamos con un commit
-
-git commit -m "Creacion de Proyecto"     
-
--Esta parte es importante aquí ingresamos el link que nos genero al crear el repositorio en GitHub.
-
-git remote add origin https://github.com/RicardoChuqui/Practica01.git
-
--Para cargar usamos el comando push como se muestra a continuación. 
-
-git push -u origin master    
-
-
+Cada fila de la tabla se define con la "tr" etiqueta. Un encabezado de tabla se define con la "th" etiqueta. Por defecto, los encabezados de las tablas están en negrita y centrados. Una tabla de datos / celda se define con la "td" etiqueta.
+  
 ## Ejecutando las pruebas ⚙️
 
 b.	Los resultados fueron satisfactorios a continuación detallamos el mismo.
@@ -158,7 +112,7 @@ git config --global user.name "usuario del GitHub creado en internet"
  
 Luego el correo que ingresamos al crear la cuenta de GitHub.
 
-git config --global  user.email registrado@gnail.com
+git config --global  user.email correo@gmail.com
 
 A continuación  el siguiente comando 
 
