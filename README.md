@@ -1,39 +1,69 @@
 # Pagina Web la tecnologia en la Actualidad
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Estructurar un sitio web estático usando HTML5. El sitio web será informativo sobre un tema que será autoría del estudiante. El sitio web deberá contar con una página principal denominada index.html y debe contener al menos cinco páginas *.html más. Todas las páginas contaran con un menú de navegación que permitirá al usuario moverse entre todas las páginas HTML. 
 
-## Comenzando 
+## Definición y uso de la etiqueta <header>
+El elemento <header> representa un contenedor para contenido introductorio o un conjunto de enlaces de navegación.
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Un elemento <header> típicamente contiene:
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+-uno o más elementos de encabezado (<h1> - <h6>)
+-logo o icono
+-información de autoría
+
+### Definición y uso de la etiqueta <nav>
+    
+La etiqueta <nav> define un conjunto de enlaces de navegación.
+
+Observe que NO todos los enlaces de un documento deben estar dentro de un elemento <nav>. El elemento <nav> está destinado solo para el bloque principal de enlaces de navegación .
+
+### Instalación de herramientas necesarias para cargar el proyecto 
+
+Primero descargamos la herramienta Git Bash del siguiente enlace.
+
+La instalación es sencilla solo le damos next y finalizamos una vez realizado esto ya podemos continuar con la carga del proyecto. 
+
+https://git-scm.com/download/win
+
+-Antes de cargar el proyecto debemos confirmar si el desarrollo de las páginas Web están correctas para esto usamos la herramienta W3C validator lo encuentras en este enlace.
+
+https://validator.w3.org/?fbclid=IwAR2NlzqAR_kIKCA-Bx9byoYRgfGnwXfV6Yr89_RdfyVM_AIAzTnnggV2aIo
+
+-Para cargar la práctica abrimos la consola de Windows en el buscador ponemos cmd y le damos Enter ahora ingresamos los siguientes comandos para registrarnos como usuarios.
+
+-Primero nos situamos en la carpeta la cual contiene la práctica
+
+Cd \ruta completa de la carpeta  
+
+-Luego creamos el usuario el mismo que ya creamos en el GitHub
+
+git config --global user.name "usuario del GitHub creado en internet"
+ 
+-Luego el correo que ingresamos al crear la cuenta de GitHub.
+
+git config --global  user.email registrado@gnail.com
+
+-A continuación  el siguiente comando 
+
+git init
+
+-Y luego el siguiente
 
 
-### Pre-requisitos 📋
+git add .                     
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+-Confirmamos con un commit
 
-```
-Da un ejemplo
-```
+git commit -m "Creacion de Proyecto"     
 
-### Instalación 🔧
+-Esta parte es importante aquí ingresamos el link que nos genero al crear el repositorio en GitHub.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+git remote add origin https://github.com/RicardoChuqui/Practica01.git
 
-_Dí cómo será ese paso_
+-Para cargar usamos el comando push como se muestra a continuación. 
 
-```
-Da un ejemplo
-```
+git push -u origin master    
 
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
