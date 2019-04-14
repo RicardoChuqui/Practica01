@@ -74,7 +74,266 @@ c.	Continuamos con las demás paginas en este caso ingresamos a la de sociedad y
 d.	En esta pagina también se cuanta con un video explicativo sobre el impacto de la tecnología     en la sociedad
 e.	Para poder subir un video en una pagina HTML5 vasta con dirigirse a la pantalla del video       dar clic izquierdo y seleccionar Copiar código de inserción este código se le pega en la         página de HTML que queremos que se reproduzca un video. 
 
+##Para mejorar la apariencia de la pagina web usamos CSS3
+CSS3 es la última evolución del lenguaje de las Hojas de Estilo en Cascada (Cascading Style Sheets), y pretende ampliar la versión CSS2.1. Trae consigo muchas novedades altamente esperadas , como las esquinas redondeadas, sombras, gradientes , transiciones o animaciones, y nuevos layouts como multi-columnas, cajas flexibles o maquetas de diseño en cuadrícula (grid layouts).
 
+##CSS3 Backgrounds and Borders
+-Soporte en fondos para cualquier tipo de "image" y no solo las uri() definidas.
+-Soporte para multiples imágenes de fondo.
+-Los valores background-repeat space y round, y para la sintaxis de dos-valores de esta propiedad CSS.
+-El valor local de background-attachment.
+-Las propiedades CSS de background-origin, background-size y background-clip.
+-Soporte para border curvos con las propiedades CSS border-radius, border-top-left-radius, border-top-right-radius, border-bottom-left-radius, y border-bottom-right-radius.
+-Soporte para el uso de una "image" como borde con las propiedades CSS border-image, border-image-source, border-image-slice, border-image-width, border-image-outset, y border-image-repeat.
+-Soporte para sombras de elemento con la propiedad CSS box-shadow.
+
+##Propiedades de texto
+La propiedad word-spacing define una cantidad adicional de espacio entre palabras. El valor debe estar en formato de longitud; no se permiten valores negativos.
+
+Ejemplos:
+
+P EM   { word-spacing: 0.4em }
+P.nota { word-spacing: -0.2em }
+
+La propiedad letter-spacing define una cantidad adicional de espacio entre caracteres. El valor debe estar en formato de longitud; no se permiten valores negativos. Un ajuste de 0 evitará justificación.
+
+Ejemplos:
+
+H1     { letter-spacing: 0.1em }
+P.note { letter-spacing: -0.1em }
+
+La propiedad text-decoration permite que el texto sea decorado mediante una de cinco propiedades: underline (subrayado), overline (línea superior), line-through (tachado), blink (parpadeo), o la por defecto none (ninguna).
+
+Por ejemplo, uno puede sugerir que los enlaces no se subrayen con
+
+A:link, A:visited, A:active { text-decoration: none }
+
+La propiedad line-height aceptará un valor para controlar el espacio entre líneas base de texto. Si el valor es un número, la altura de línea se calcula multiplicando el tamaño de fuente del elemento por el número. Los valores en porcentaje son relativos al tamaño de fuente del elemento. No se permiten los valores negativos.
+
+La altura de línea también puede darse en la propiedad font junto con un tamaño de fuente.
+
+La propiedad line-height podría usarse para texto a doble espacio:
+
+P { line-height: 200% }
+
+##El selector de id
+El selector de id utiliza el atributo id de un elemento HTML para seleccionar un elemento específico.
+
+El ID de un elemento debe ser único dentro de una página, por lo que el selector de ID se utiliza para seleccionar un elemento único.
+
+Para seleccionar un elemento con un ID específico, escriba un carácter de hash (#), seguido del ID del elemento.
+
+La siguiente regla de estilo se aplicará al elemento HTML con id = "para1":
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+##El selector de elementos
+El selector de elementos selecciona elementos en función del nombre del elemento.
+
+Puede seleccionar todos los elementos <p> en una página como esta (en este caso, todos los elementos <p> estarán alineados en el centro, con un color de texto rojo):
+p {
+  text-align: center;
+  color: red;
+}
+
+##Formularios CSS
+El ejemplo anterior se aplica a todos los elementos input>. Si solo desea aplicar un estilo a un tipo de entrada específico, puede usar los selectores de atributos:
+
+input[type=text] - Solo seleccionará campos de texto.
+input[type=password] - Solo seleccionará campos de contraseña
+input[type=number] - Solo seleccionará campos de números
+
+##Para crear un boton
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+## Para Márgenes CSS3
+Las marginpropiedades CSS se utilizan para crear espacio alrededor de los elementos, fuera de cualquier borde definido.
+
+Con CSS, tienes control total sobre los márgenes. Existen propiedades para establecer el margen para cada lado de un elemento (superior, derecha, inferior e izquierda).
+
+p {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+## Texto CSS3
+
+La colorpropiedad se utiliza para establecer el color del texto. El color es especificado por:
+
+un nombre de color - como "rojo"
+un valor HEX - como "# ff0000"
+un valor RGB, como "rgb (255,0,0)"
+body {
+  color: blue;
+}
+
+h1 {
+  color: green;
+}
+
+Alineación del texto
+La text-alignpropiedad se utiliza para establecer la alineación horizontal de un texto.
+
+Un texto puede ser alineado a la izquierda o a la derecha, centrado o justificado.
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+
+##Diseño CSS - La propiedad de posición
+
+La positionpropiedad especifica el tipo de método de posicionamiento utilizado para un elemento (estático, relativo, fijo, absoluto o adhesivo).
+Hay cinco valores de posición diferentes:
+
+-static
+-relative
+-fixed
+-absolute
+-sticky
+
+posición: estática;
+Los elementos HTML se colocan estáticos por defecto.
+
+Los elementos posicionados estáticamente no se ven afectados por las propiedades superior, inferior, izquierda y derecha.
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+posición: relativa;
+Un elemento con position: relative;se coloca en relación con su posición normal.
+
+La configuración de las propiedades superior, derecha, inferior e izquierda de un elemento relativamente posicionado hará que se ajuste fuera de su posición normal. El otro contenido no se ajustará para encajar en cualquier espacio dejado por el elemento.
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+posición: absoluta;
+Un elemento con position: absolute;se posiciona en relación con el antepasado posicionado más cercano (en lugar de posicionarse en relación con la ventana gráfica, como fijo).
+
+Sin embargo; Si un elemento posicionado absoluto no tiene ancestros posicionados, utiliza el cuerpo del documento y se mueve junto con el desplazamiento de la página.
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+##CSS Layout - float and clear
+La floatpropiedad CSS especifica cómo debe flotar un elemento.
+
+La clearpropiedad CSS especifica qué elementos pueden flotar junto al elemento borrado y en qué lado.
+La floatpropiedad se utiliza para posicionar y dar formato al contenido, por ejemplo, permite que una imagen flote hacia la izquierda del texto en un contenedor.
+
+La floatpropiedad puede tener uno de los siguientes valores:
+
+-izquierda - El elemento flota a la izquierda de su contenedor
+-derecha- El elemento flota a la derecha de su contenedor
+-ninguno: el elemento no flota (se mostrará justo donde aparece en el texto). 
+-heredar - El elemento hereda el valor flotante de su padre
+
+img {
+  float: right;
+}
+
+##The display: inline-block Value
+Comparado con display: inline, la principal diferencia es que display: inline-blockpermite establecer un ancho y alto en el elemento.
+
+Además, con display: inline-blocklos márgenes / rellenos superiores e inferiores se respetan, pero con display: inlineellos no se respetan .
+
+Comparado con display: block, la principal diferencia es que display: inline-blockno agrega un salto de línea después del elemento, por lo que el elemento puede ubicarse junto a otros elementos.
+
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue; 
+  background-color: yellow; 
+}
+
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue; 
+  background-color: yellow; 
+}
+
+##Unidades CSS
+CSS tiene varias unidades diferentes para expresar una longitud.
+
+Muchas de las propiedades CSS toman valores "longitud", tales como width, margin, padding, font-size, etc.
+
+La longitud es un número seguido de una unidad de longitud, como 10px, 2em, etc.
+
+Un espacio en blanco no puede aparecer entre el número y la unidad. Sin embargo, si el valor es 0, la unidad se puede omitir.
+
+Longitudes Absolutas
+Las unidades de longitud absoluta son fijas y una longitud expresada en cualquiera de ellas aparecerá exactamente como ese tamaño.
+
+h1 {font-size: 1.5cm;}
+h2 {font-size: 1cm;}
+p {
+  font-size: 0.5cm;
+  line-height: 1cm;
+}
+
+Longitudes Relativas
+Las unidades de longitud relativa especifican una longitud relativa a otra propiedad de longitud. Las unidades de longitud relativa se escalan mejor entre diferentes medios de representación.
+
+p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+div {
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+span {
+  font-size: 0.5em;
+}
+
+##CSS columnas múltiples
+Propiedades de CSS de varias columnas
+En este capítulo, aprenderá acerca de las siguientes propiedades de varias columnas:
+
+column-count
+column-gap
+column-rule-style
+column-rule-width
+column-rule-color
+column-rule
+column-span
+column-width
 ## Para cargar el proyecto al GitHub
 j.	Para la creación del usuario se debe registrar en la página oficial de GitHub.
 
