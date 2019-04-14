@@ -16,16 +16,38 @@
         background: rgba(250, 248, 248, 0);
         color :rgb(0, 162, 255);
     }
-    #menuprincipal{
-        width: 15%;
+    div#menu {
         position: absolute;
         top: 400px;
         left: 5px;
-        background: rgba(250, 248, 248, 0);
-        color: rgb(180, 29, 29);
-        border-style: solid;
-        border-color:rgb(255, 251, 0);
+        width: 150px;
+        margin-top: 50px;
         
+    }
+     
+    /* Por defecto ul genera una separación hacia la derecha. con margin:0 queda anulada */
+    div#menu ul {
+       list-style: none;
+       color: rgb(255, 250, 250);
+    }
+     
+    div#menu ul li {
+        margin-top: 15px;
+        font-family:  Tahoma;
+        font-size: 18px;
+        background-color: #699bb3;
+    
+    }
+    div#menu a {
+        border-radius: 0px 20px opx;
+        display: block;
+        text-decoration: none;
+        color: #6643ff;
+        background: #f0edff;
+        padding: 3px 6px 3px 6px;
+    }
+    div#menu a:hover {
+        padding-left: 5px;
     }
     #color{
 text-decoration-color: transparent;
