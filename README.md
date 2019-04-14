@@ -74,10 +74,10 @@ c.	Continuamos con las demás paginas en este caso ingresamos a la de sociedad y
 d.	En esta pagina también se cuanta con un video explicativo sobre el impacto de la tecnología     en la sociedad
 e.	Para poder subir un video en una pagina HTML5 vasta con dirigirse a la pantalla del video       dar clic izquierdo y seleccionar Copiar código de inserción este código se le pega en la         página de HTML que queremos que se reproduzca un video. 
 
-##Para mejorar la apariencia de la pagina web usamos CSS3
+## Para mejorar la apariencia de la pagina web usamos CSS3
 CSS3 es la última evolución del lenguaje de las Hojas de Estilo en Cascada (Cascading Style Sheets), y pretende ampliar la versión CSS2.1. Trae consigo muchas novedades altamente esperadas , como las esquinas redondeadas, sombras, gradientes , transiciones o animaciones, y nuevos layouts como multi-columnas, cajas flexibles o maquetas de diseño en cuadrícula (grid layouts).
 
-##CSS3 Backgrounds and Borders
+## CSS3 Backgrounds and Borders
 -Soporte en fondos para cualquier tipo de "image" y no solo las uri() definidas.
 -Soporte para multiples imágenes de fondo.
 -Los valores background-repeat space y round, y para la sintaxis de dos-valores de esta propiedad CSS.
@@ -87,7 +87,7 @@ CSS3 es la última evolución del lenguaje de las Hojas de Estilo en Cascada (Ca
 -Soporte para el uso de una "image" como borde con las propiedades CSS border-image, border-image-source, border-image-slice, border-image-width, border-image-outset, y border-image-repeat.
 -Soporte para sombras de elemento con la propiedad CSS box-shadow.
 
-##Propiedades de texto
+## Propiedades de texto
 La propiedad word-spacing define una cantidad adicional de espacio entre palabras. El valor debe estar en formato de longitud; no se permiten valores negativos.
 
 Ejemplos:
@@ -116,7 +116,7 @@ La propiedad line-height podría usarse para texto a doble espacio:
 
 P { line-height: 200% }
 
-##El selector de id
+## El selector de id
 El selector de id utiliza el atributo id de un elemento HTML para seleccionar un elemento específico.
 
 El ID de un elemento debe ser único dentro de una página, por lo que el selector de ID se utiliza para seleccionar un elemento único.
@@ -129,7 +129,7 @@ La siguiente regla de estilo se aplicará al elemento HTML con id = "para1":
   color: red;
 }
 
-##El selector de elementos
+## El selector de elementos
 El selector de elementos selecciona elementos en función del nombre del elemento.
 
 Puede seleccionar todos los elementos <p> en una página como esta (en este caso, todos los elementos <p> estarán alineados en el centro, con un color de texto rojo):
@@ -138,14 +138,14 @@ p {
   color: red;
 }
 
-##Formularios CSS
+## Formularios CSS
 El ejemplo anterior se aplica a todos los elementos input>. Si solo desea aplicar un estilo a un tipo de entrada específico, puede usar los selectores de atributos:
 
 input[type=text] - Solo seleccionará campos de texto.
 input[type=password] - Solo seleccionará campos de contraseña
 input[type=number] - Solo seleccionará campos de números
 
-##Para crear un boton
+## Para crear un boton
 
 .button {
   background-color: #4CAF50; /* Green */
@@ -201,7 +201,7 @@ h3 {
   text-align: right;
 }
 
-##Diseño CSS - La propiedad de posición
+## Diseño CSS - La propiedad de posición
 
 La positionpropiedad especifica el tipo de método de posicionamiento utilizado para un elemento (estático, relativo, fijo, absoluto o adhesivo).
 Hay cinco valores de posición diferentes:
@@ -244,7 +244,7 @@ div.absolute {
   border: 3px solid #73AD21;
 }
 
-##CSS Layout - float and clear
+## CSS Layout - float and clear
 La floatpropiedad CSS especifica cómo debe flotar un elemento.
 
 La clearpropiedad CSS especifica qué elementos pueden flotar junto al elemento borrado y en qué lado.
@@ -261,7 +261,7 @@ img {
   float: right;
 }
 
-##The display: inline-block Value
+## The display: inline-block Value
 Comparado con display: inline, la principal diferencia es que display: inline-blockpermite establecer un ancho y alto en el elemento.
 
 Además, con display: inline-blocklos márgenes / rellenos superiores e inferiores se respetan, pero con display: inlineellos no se respetan .
@@ -286,7 +286,7 @@ span.b {
   background-color: yellow; 
 }
 
-##Unidades CSS
+## Unidades CSS
 CSS tiene varias unidades diferentes para expresar una longitud.
 
 Muchas de las propiedades CSS toman valores "longitud", tales como width, margin, padding, font-size, etc.
@@ -322,7 +322,7 @@ span {
   font-size: 0.5em;
 }
 
-##CSS columnas múltiples
+## CSS columnas múltiples
 Propiedades de CSS de varias columnas
 En este capítulo, aprenderá acerca de las siguientes propiedades de varias columnas:
 
