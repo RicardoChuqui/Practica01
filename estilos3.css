@@ -1,77 +1,11 @@
-*{
-   
-    
-    background-image: url("../Practica_01/imagen/logo4.jpg");
-    }
-
-
-    #resaltar{
-
-
-        text-align: center;
-    }
-    #menuprincipal{
-        width: 20%;
-        border: (10px blue  double);
-        border-style: groove;
-        border-color: blue;
-        border-width: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        float: left;
-    }
-    #contenido{ 
-        width: 70%;
-
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left:10px ;
-        margin-right:10px ;
-        border-width: 10px;
-        border-color: brown;
-        border-style: double;
-        float: left;
-    }
-
-#temas{ 
-    width: 10%;
-
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left:10px ;
-    margin-right:10px ;
-    border-width: 10px;
-    border-color: brown;
-    border-style: double;
-    float: left;
+h1 {
+    color:rgb(245, 200, 0);
 }
-#video{ 
-        width: 10%;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left:10px ;
-        margin-right:10px ;
-        border-width: 10px;
-        border-color: brown;
-        border-style: double;
-        float: left;
+
+a {
+    text-decoration:none;
+     color:red;
     }
-
-#final{ 
-    width: 80%;
-
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left:10px ;
-    margin-right:10px ;
-    border-width: 10px;
-    border-color: brown;
-    border-style: double;
-    float: left;
-}
-#imagen{ 
-
-    position: absolute;
-    top: 150px;
-    left: 50px;
-}
+    .resaltado {
+        font-size:20px;
+    }
