@@ -1,6 +1,7 @@
 *{
     
-    background: lightseagreen;
+    background-image: url("../Practica_01/imagen/logo4.jpg");
+    
     
     }
 
@@ -13,7 +14,7 @@
         top: 320px;
         left: 350px;
         background: rgba(250, 248, 248, 0);
-        color :red;
+        color :rgb(0, 162, 255);
     }
     #menuprincipal{
         width: 15%;
@@ -33,7 +34,7 @@ font-style: normal;
     }
     #contenido{ 
         width: 40%;
-        color:rgb(84, 2, 138);
+        color:rgb(30, 155, 5);
         position: absolute;
         top: 400px;
         left: 210px;
@@ -50,7 +51,7 @@ font-style: normal;
         position: absolute;
         top: 400px;
         left: 745px;
-        color:rgb(79, 3, 129);
+        color:rgb(3, 0, 160);
         padding-left: 10px;
         padding-right: 10px;
         margin-left:10px ;

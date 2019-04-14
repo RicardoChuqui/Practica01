@@ -1,6 +1,5 @@
 *{
-    
-    background: lightseagreen;
+    background-image: url("../Practica_01/imagen/logo4.jpg");
     
      
      }
@@ -13,7 +12,7 @@
         top: 320px;
         left: 350px;
         background: rgba(250, 248, 248, 0);
-        color :red;
+        color :rgb(0, 195, 255);
     }
     #menuprincipal{
         width: 15%;
@@ -27,7 +26,7 @@
     }
     #contenido{ 
         width: 70%;
-        color:rgb(84, 2, 138);
+        color:rgb(30, 155, 5);
         position: absolute;
         top: 400px;
         left: 210px;
@@ -55,7 +54,7 @@
 #medio{
     text-align: center;
     width: 30%;
-    color: rgb(131, 26, 26);
+    color: rgb(222, 238, 0);
     position: absolute;
         top: 820px;
         left: 400px;
@@ -63,7 +62,7 @@
 #medio2{
     text-align: center;
     width: 30%;
-    color: rgb(131, 26, 26);
+    color: rgb(255, 251, 0);
     position: absolute;
         top: 850px;
         left: 420px;
@@ -119,7 +118,7 @@
     left: 10px;
     background: rgba(250, 248, 248, 0);
     margin-right:10px ;
-    border-width: 4px;
+    border-width: 2px;
     border-color: brown;
     border-style:solid;
    
@@ -139,6 +138,7 @@
         /* Sólo para centrar el formulario a la página */
         margin: 0 auto;
         width: 400px;
+
         /* Para ver el borde del formulario */
         padding: 1em;
         border: 1px solid #CCC;
@@ -164,7 +164,7 @@
         box-sizing: border-box;
     
         /* Para armonizar el look&feel del borde en los campos de texto */
-        border: 1px solid #999;
+        border: 1px solid rgb(13, 2, 65);
     }
     input:focus, textarea:focus {
         /* Para dar un pequeño destaque en elementos activos*/
@@ -190,3 +190,24 @@
            entre los labels y sus campos de texto */
         margin-left: .5em;
     }
+    .boton_1{
+        position: absolute;
+        top: 20px;
+        left: 800px;
+        text-decoration: none;
+        padding: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: helvetica;
+        font-weight: 300;
+        font-size: 25px;
+        font-style: italic;
+        color: #006505;
+        background-color: #82b085;
+        border-radius: 15px;
+        border: 3px double #006505;
+      }
+      .boton_1:hover{
+        opacity: 0.6;
+        text-decoration: none;
+      }
