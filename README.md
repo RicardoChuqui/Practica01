@@ -403,7 +403,7 @@ git push -u origin master
 
 v.	Una ves realizado todos los pasos actualizamos la pagina del repositorio GitHub y nos           aparece cargado el proyecto. 
 
-![Alt text](imagen/tc_logo2.jpg?raw=true ""Title")
+![Alt text](https://github.com/RicardoChuqui/Practica01/blob/master/imagen/fondo2.jpg?raw=true ""Title")
 
 ## Construido con 🛠️
 
