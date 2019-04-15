@@ -403,7 +403,7 @@ git push -u origin master
 
 v.	Una ves realizado todos los pasos actualizamos la pagina del repositorio GitHub y nos           aparece cargado el proyecto. 
 
-## Resulatados 
+## Resultados 
 Ventana de visualizacion principal
 
 ![alt text](https://github.com/RicardoChuqui/Practica01/blob/master/imagen/ima1.jpg)
@@ -419,7 +419,13 @@ Formulario Web
 
 Pagina web con tres columnas
 
+![alt text](https://github.com/RicardoChuqui/Practica01/blob/master/imagen/ima5.jpg)
+
+Pagina web con tres columnas
+
 ![alt text](https://github.com/RicardoChuqui/Practica01/blob/master/imagen/ima4.jpg)
+
+
 ## Construido con 🛠️
 
 _Herramientas usadas
