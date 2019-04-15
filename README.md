@@ -403,7 +403,7 @@ git push -u origin master
 
 v.	Una ves realizado todos los pasos actualizamos la pagina del repositorio GitHub y nos           aparece cargado el proyecto. 
 
-
+![Alt text](../Practica_01/estilos/estilos2.css?raw=true ""Title")
 ## Construido con 🛠️
 
 _Herramientas usadas

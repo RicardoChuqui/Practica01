@@ -1,6 +1,6 @@
 *{
     
-    background-image: url("../Practica_01/imagen/logo4.jpg");
+    background-image: url("../imagen/logo4.jpg");
     
     
     }
@@ -39,7 +39,7 @@
     
     }
     div#menu a {
-        border-radius: 0px 20px opx;
+        
         display: block;
         text-decoration: none;
         color: #6643ff;
