@@ -16,6 +16,7 @@
         background: rgba(250, 248, 248, 0);
         color :rgb(0, 162, 255);
     }
+    /* Para crear el menu */
     div#menu {
         position: absolute;
         top: 400px;
@@ -25,12 +26,12 @@
         
     }
      
-    /* Por defecto ul genera una separación hacia la derecha. con margin:0 queda anulada */
+    /* Para darle color de fondo*/
     div#menu ul {
        list-style: none;
        color: rgb(255, 250, 250);
     }
-     
+     /* Para darle color de la letras */
     div#menu ul li {
         margin-top: 15px;
         font-family:  Tahoma;
@@ -38,6 +39,7 @@
         background-color: #699bb3;
     
     }
+    /* Por defecto ul genera una separación hacia la derecha. con margin:0 queda anulada */
     div#menu a {
         
         display: block;
@@ -45,7 +47,9 @@
         color: #6643ff;
         background: #f0edff;
         padding: 3px 6px 3px 6px;
+        border-radius: 16px;
     }
+    /* Por defecto ul genera una separación hacia la derecha. con margin:0 queda anulada */
     div#menu a:hover {
         padding-left: 5px;
     }
